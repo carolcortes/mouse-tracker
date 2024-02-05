@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Mouse Tracker</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Mouse Tracker</h1>
+  </header>
+  <main class="main">
+    <div class="name_container">
+      <label for="name">Digite seu nome:</label>
+      <input type="text" id="name" class="user">
+    </div>
+    <div class="instructions">
+      <h1>Instruções:</h1>
+      <p>Digite seu nome acima e aperte o botão para iniciar o teste. Siga as instruções que aparecerão no alerta.</p>
+      <p>A instrução seguinte somente é liberada quando a tarefa em execução é finalizada.</p>
+      <p>Quando orientado, pressione o botão "Salvar" para salvar os dados.</p>
+    </div>
+
+    <div class="test_container">
+      <div class="test_box">
+        <button type="button" class="init_button">Iniciar</button>
+        <div id="dragZone" class="inactive">
+          <div id="draggableBox" draggable="true"></div>
+        </div>
+        <div id="dropZone" class="inactive"></div>
+        <div id="text_container" class="inactive">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla placeat dignissimos perferendis vero qui saepe impedit illo veritatis. Omnis, ullam accusamus fuga quis optio illo explicabo et ipsa itaque.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo nemo, reprehenderit facere vitae facilis quia aspernatur! Pariatur recusandae voluptas dolores aperiam nam, magnam itaque sit id alias eaque obcaecati.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, beatae esse! Neque molestias cumque maiores, vero dolorem temporibus cum amet, quos, architecto corrupti excepturi praesentium numquam facere. Magnam, eaque ipsum!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem rerum facilis sapiente, delectus a eos ducimus? Magni, mollitia expedita est ipsam fuga minus nobis, eveniet veritatis voluptate, quidem debitis repellat.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae praesentium quod cumque maxime necessitatibus quaerat non, pariatur nesciunt quidem quia ducimus quis nulla est saepe deserunt impedit eos suscipit vel!</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, aliquam consequatur facilis dolor natus architecto? Blanditiis autem dignissimos, laboriosam ipsum vel eligendi modi minus sapiente consequatur adipisci labore ipsa? Iusto.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In non pariatur ut perspiciatis nobis ipsam dicta optio? Sapiente placeat, cupiditate autem temporibus accusantium fuga nam doloribus voluptas, alias natus dolorum.</p>
+          <div class="end_container">
+            <button type="button" class="end_button">Finalizar</button>
+          </div>
+        </div>
+        <p id="end_text" class="inactive">Teste finalizado com sucesso! Por favor, pressione o botão "Salvar" para salvar os seus dados.</p>
+      </div>
+    </div>
+    <div class="save_container">
+      <button type="button" class="save_button">Salvar</button>
+    </div>
+  </main>
+</body>
+</html>
