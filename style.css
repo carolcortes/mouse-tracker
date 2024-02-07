@@ -58,6 +58,10 @@ body {
   background-color: aquamarine;
 }
 
+.init_button:disabled {
+  background-color: lightgrey;
+}
+
 .save_container {
   display: flex;
   align-items: center;
@@ -98,6 +102,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#dropZone.second-position {
+  top: 0;
+}
+
+#dropZone.third-position {
+  left: 3rem;
+  top: 3rem;
 }
 
 .inactive {
