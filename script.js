@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     testBox.removeChild(textContainer);
     endText.classList.remove('inactive');
 
-    if (activeTest < 5) initNewTest();
+    if (activeTest < 7) initNewTest();
   };
 
   const dropBox = () => {
