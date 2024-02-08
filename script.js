@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
       test_box_3: [],
       test_box_4: [],
       test_box_5: [],
+      test_box_6: [],
+      test_box_7: [],
     },
   };
 
